@@ -22,9 +22,11 @@ cd raspi_setup
 
 ## 初回設定
 https://qiita.com/zono_0/items/43fc89876977738de402
-sudo vi /etc/rc.local
 
+
+```
+sudo vi /etc/rc.local
+```
 - 以下を追記
-```
-/usr/local/bin/v4l2rtspserver -W 1280 -H 720 -F 60
-```
+
+> /usr/local/bin/v4l2rtspserver -W 1280 -H 720 -F 60
