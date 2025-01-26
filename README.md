@@ -14,3 +14,6 @@ https://memo.appri.me/iot/rpi0-bluetooth-ssh#PC%E5%81%B4%E3%81%8B%E3%82%89%E3%83
 ```
 sudo raspi-config
 ```
+
+## 初回設定
+https://qiita.com/zono_0/items/43fc89876977738de402
