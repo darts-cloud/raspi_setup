@@ -52,6 +52,7 @@ sudo systemctl start systemd-networkd
 sudo systemctl start bt-agent
 sudo systemctl start bt-network
 
+sudo apt install -y libcamera-apps
 sudo apt-get install -y cmake
 sudo apt-get install -y liblivemedia-dev
 cd ~/
