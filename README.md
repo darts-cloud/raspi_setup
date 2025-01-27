@@ -24,7 +24,10 @@ sudo reboot
 
 ```
 vcgencmd get_camera
-
+```
+以下の通りなっていたらＯＫ
+> supported=1 detected=0, libcamera interfaces=0
+```
 cd ~
 git clone https://github.com/darts-cloud/raspi_setup.git
 cd raspi_setup
