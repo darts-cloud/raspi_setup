@@ -1,4 +1,7 @@
 #!/bin/sh
+sudo apt update
+sudo apt upgrade
+
 sudo apt-get install -y realvnc-vnc-server
 sudo apt install -y bluez-tools
 
@@ -49,4 +52,12 @@ sudo systemctl start systemd-networkd
 sudo systemctl start bt-agent
 sudo systemctl start bt-network
 
-sudo bluetoothctl
+sudo apt-get install -y cmake
+sudo apt-get install -y liblivemedia-dev
+cd ~/
+git clone https://github.com/mpromonet/h264_v4l2_rtspserver.git
+cd h264_v4l2_rtspserver
+sudo cmake .
+sudo make install
+
+ls -la /usr/local/bin/v4l2rtspserver
