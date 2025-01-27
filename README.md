@@ -27,13 +27,15 @@ vcgencmd get_camera
 ```
 以下の通りなっていたらＯＫ
 > supported=1 detected=0, libcamera interfaces=0
-```
 
+```
 sudo nano /boot/config.txt
 ```
 最終行に以下を追記
 > dtoverlay=imx219
+
 Ctrl+O Enter Ctrl+X
+
 ```
 cd ~
 git clone https://github.com/darts-cloud/raspi_setup.git
