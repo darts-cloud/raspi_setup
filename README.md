@@ -13,6 +13,7 @@ https://memo.appri.me/iot/rpi0-bluetooth-ssh#PC%E5%81%B4%E3%81%8B%E3%82%89%E3%83
 ## 初回設定
 ```
 sudo raspi-config
+vcgencmd get_camera
 
 cd ~
 git clone https://github.com/darts-cloud/raspi_setup.git
@@ -28,5 +29,4 @@ https://qiita.com/zono_0/items/43fc89876977738de402
 sudo vi /etc/rc.local
 ```
 - 以下を追記
-
 > /usr/local/bin/v4l2rtspserver -W 1280 -H 720 -F 60
