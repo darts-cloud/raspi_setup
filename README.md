@@ -13,6 +13,16 @@ https://memo.appri.me/iot/rpi0-bluetooth-ssh#PC%E5%81%B4%E3%81%8B%E3%82%89%E3%83
 ## 初回設定
 ```
 sudo raspi-config
+```
+- Interface Optionsを選択
+- Legacy CameraをYesに設定
+
+再起動
+```
+sudo reboot
+```
+
+```
 vcgencmd get_camera
 
 cd ~
