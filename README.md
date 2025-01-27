@@ -28,6 +28,10 @@ vcgencmd get_camera
 以下の通りなっていたらＯＫ
 > supported=1 detected=0, libcamera interfaces=0
 ```
+
+sudo nano /boot/config.txt
+dtoverlay=imx219
+
 cd ~
 git clone https://github.com/darts-cloud/raspi_setup.git
 cd raspi_setup
