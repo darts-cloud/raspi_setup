@@ -47,6 +47,7 @@ vcgencmd get_camera
 cd ~
 git clone https://github.com/darts-cloud/raspi_setup.git
 cd raspi_setup
+chmod 744 run.sh
 ./run.sh
 ```
 
