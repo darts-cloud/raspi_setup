@@ -30,8 +30,11 @@ vcgencmd get_camera
 ```
 
 sudo nano /boot/config.txt
-dtoverlay=imx219
-
+```
+最終行に以下を追記
+> dtoverlay=imx219
+Ctrl+O Enter Ctrl+X
+```
 cd ~
 git clone https://github.com/darts-cloud/raspi_setup.git
 cd raspi_setup
