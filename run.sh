@@ -64,3 +64,9 @@ sudo cmake .
 sudo make install
 
 ls -la /usr/local/bin/v4l2rtspserver
+
+sudo cp /usr/lib/systemd/system/v4l2rtspserver.service /etc/systemd/system
+sudo systemctl daemon-reload
+sudo systemctl enable v4l2rtspserver
+sudo reboot
+
